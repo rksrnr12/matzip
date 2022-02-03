@@ -16,6 +16,8 @@
 		7D9871FB27AB90920012BC39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D9871F927AB90920012BC39 /* LaunchScreen.storyboard */; };
 		7D98720327AB93FB0012BC39 /* TapBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D98720227AB93FB0012BC39 /* TapBarViewController.swift */; };
 		7D98720727AB95360012BC39 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D98720627AB95360012BC39 /* MainTableViewCell.swift */; };
+		7D98720927AB98E10012BC39 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D98720827AB98E10012BC39 /* detailViewController.swift */; };
+		7D98720B27AB98EA0012BC39 /* addViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D98720A27AB98EA0012BC39 /* addViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		7D9871FC27AB90920012BC39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D98720227AB93FB0012BC39 /* TapBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapBarViewController.swift; sourceTree = "<group>"; };
 		7D98720627AB95360012BC39 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		7D98720827AB98E10012BC39 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		7D98720A27AB98EA0012BC39 /* addViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 				7D9871EB27AB90910012BC39 /* AppDelegate.swift */,
 				7D9871ED27AB90910012BC39 /* SceneDelegate.swift */,
 				7D9871EF27AB90910012BC39 /* ViewController.swift */,
+				7D98720827AB98E10012BC39 /* detailViewController.swift */,
+				7D98720A27AB98EA0012BC39 /* addViewController.swift */,
 				7D9871F127AB90910012BC39 /* Main.storyboard */,
 				7D9871F727AB90920012BC39 /* Assets.xcassets */,
 				7D9871F927AB90920012BC39 /* LaunchScreen.storyboard */,
@@ -149,9 +155,11 @@
 			files = (
 				7D9871F627AB90910012BC39 /* matzip.xcdatamodeld in Sources */,
 				7D9871F027AB90910012BC39 /* ViewController.swift in Sources */,
+				7D98720B27AB98EA0012BC39 /* addViewController.swift in Sources */,
 				7D9871EC27AB90910012BC39 /* AppDelegate.swift in Sources */,
 				7D9871EE27AB90910012BC39 /* SceneDelegate.swift in Sources */,
 				7D98720727AB95360012BC39 /* MainTableViewCell.swift in Sources */,
+				7D98720927AB98E10012BC39 /* detailViewController.swift in Sources */,
 				7D98720327AB93FB0012BC39 /* TapBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
