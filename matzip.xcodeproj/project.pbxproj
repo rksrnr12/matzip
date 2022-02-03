@@ -14,6 +14,8 @@
 		7D9871F627AB90910012BC39 /* matzip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D9871F427AB90910012BC39 /* matzip.xcdatamodeld */; };
 		7D9871F827AB90920012BC39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D9871F727AB90920012BC39 /* Assets.xcassets */; };
 		7D9871FB27AB90920012BC39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D9871F927AB90920012BC39 /* LaunchScreen.storyboard */; };
+		7D98720327AB93FB0012BC39 /* TapBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D98720227AB93FB0012BC39 /* TapBarViewController.swift */; };
+		7D98720727AB95360012BC39 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D98720627AB95360012BC39 /* MainTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		7D9871F727AB90920012BC39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D9871FA27AB90920012BC39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D9871FC27AB90920012BC39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D98720227AB93FB0012BC39 /* TapBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapBarViewController.swift; sourceTree = "<group>"; };
+		7D98720627AB95360012BC39 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				7D9871F927AB90920012BC39 /* LaunchScreen.storyboard */,
 				7D9871FC27AB90920012BC39 /* Info.plist */,
 				7D9871F427AB90910012BC39 /* matzip.xcdatamodeld */,
+				7D98720227AB93FB0012BC39 /* TapBarViewController.swift */,
+				7D98720627AB95360012BC39 /* MainTableViewCell.swift */,
 			);
 			path = matzip;
 			sourceTree = "<group>";
@@ -145,6 +151,8 @@
 				7D9871F027AB90910012BC39 /* ViewController.swift in Sources */,
 				7D9871EC27AB90910012BC39 /* AppDelegate.swift in Sources */,
 				7D9871EE27AB90910012BC39 /* SceneDelegate.swift in Sources */,
+				7D98720727AB95360012BC39 /* MainTableViewCell.swift in Sources */,
+				7D98720327AB93FB0012BC39 /* TapBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
