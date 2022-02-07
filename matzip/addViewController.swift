@@ -81,6 +81,7 @@ class addViewController: UIViewController,UITextViewDelegate,PHPickerViewControl
             tableData.image = imageData!
             
             
+            
             try!realm.write{
                 realm.add(tableData)//데이터베이스에 추가한다
             }

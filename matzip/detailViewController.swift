@@ -28,6 +28,7 @@ class detailViewController: UIViewController {
         detailExplain.text = Explain //디테일화면속 detailExplain을 Explain으로 지정해준다
 
         // Do any additional setup after loading the view.
+        
     }
     
     @IBAction func mapButton(_ sender: UIButton) { //지도 버튼을 누르면 실행
