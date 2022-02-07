@@ -60,6 +60,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         self.navigationController!.pushViewController(detailVc, animated: true) //detailView로 뷰전환을 해준다
     }
+    
 
 }
 

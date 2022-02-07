@@ -44,6 +44,7 @@ class detailViewController: UIViewController {
             present(alert, animated: true, completion: nil) //알림창을 화면에 나타내준다
                         }
 
+        
         }
     }
     
