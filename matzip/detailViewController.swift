@@ -22,13 +22,13 @@ class detailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationItem.largeTitleDisplayMode = .always
         self.navigationItem.title = name //디테일화면속 네이게이션 타이틀을 name으로 지정해준다
         detailAddress.text = Adress //디테일화면속 dstailAddress을 Address으로 지정해준다
         detailImage.image = Image //디테일화면속 detailImage을 image으로 지정해준다
         detailExplain.text = Explain //디테일화면속 detailExplain을 Explain으로 지정해준다
 
         // Do any additional setup after loading the view.
-        
     }
     
     @IBAction func mapButton(_ sender: UIButton) { //지도 버튼을 누르면 실행
@@ -45,7 +45,6 @@ class detailViewController: UIViewController {
             present(alert, animated: true, completion: nil) //알림창을 화면에 나타내준다
                         }
 
-        
         }
     }
     

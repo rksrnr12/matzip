@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D119C7927B2858B006D5616 /* searchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D119C7827B2858B006D5616 /* searchTableViewCell.swift */; };
+		7D119C7B27B285B1006D5616 /* SearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D119C7A27B285B1006D5616 /* SearchBarViewController.swift */; };
 		7D53CDBB27ABA08C007F5694 /* database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D53CDBA27ABA08C007F5694 /* database.swift */; };
 		7D9871EC27AB90910012BC39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9871EB27AB90910012BC39 /* AppDelegate.swift */; };
 		7D9871EE27AB90910012BC39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9871ED27AB90910012BC39 /* SceneDelegate.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D119C7827B2858B006D5616 /* searchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchTableViewCell.swift; sourceTree = "<group>"; };
+		7D119C7A27B285B1006D5616 /* SearchBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
 		7D53CDBA27ABA08C007F5694 /* database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = database.swift; sourceTree = "<group>"; };
 		7D9871E827AB90910012BC39 /* matzip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = matzip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D9871EB27AB90910012BC39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +102,7 @@
 				7D9871EF27AB90910012BC39 /* ViewController.swift */,
 				7D98720827AB98E10012BC39 /* detailViewController.swift */,
 				7D98720A27AB98EA0012BC39 /* addViewController.swift */,
+				7D119C7A27B285B1006D5616 /* SearchBarViewController.swift */,
 				7D9871F127AB90910012BC39 /* Main.storyboard */,
 				7D9871F727AB90920012BC39 /* Assets.xcassets */,
 				7D9871F927AB90920012BC39 /* LaunchScreen.storyboard */,
@@ -105,6 +110,7 @@
 				7D9871F427AB90910012BC39 /* matzip.xcdatamodeld */,
 				7D98720227AB93FB0012BC39 /* TapBarViewController.swift */,
 				7D98720627AB95360012BC39 /* MainTableViewCell.swift */,
+				7D119C7827B2858B006D5616 /* searchTableViewCell.swift */,
 			);
 			path = matzip;
 			sourceTree = "<group>";
@@ -225,10 +231,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D9871F627AB90910012BC39 /* matzip.xcdatamodeld in Sources */,
+				7D119C7B27B285B1006D5616 /* SearchBarViewController.swift in Sources */,
 				7D9871F027AB90910012BC39 /* ViewController.swift in Sources */,
 				7D98720B27AB98EA0012BC39 /* addViewController.swift in Sources */,
 				7D9871EC27AB90910012BC39 /* AppDelegate.swift in Sources */,
 				7D9871EE27AB90910012BC39 /* SceneDelegate.swift in Sources */,
+				7D119C7927B2858B006D5616 /* searchTableViewCell.swift in Sources */,
 				7D53CDBB27ABA08C007F5694 /* database.swift in Sources */,
 				7D98720727AB95360012BC39 /* MainTableViewCell.swift in Sources */,
 				7D98720927AB98E10012BC39 /* detailViewController.swift in Sources */,
