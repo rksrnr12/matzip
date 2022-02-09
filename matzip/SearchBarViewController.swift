@@ -9,7 +9,7 @@ import UIKit
 import RealmSwift
 
 class SearchBarViewController: UIViewController,UITableViewDelegate,UITableViewDataSource,UISearchBarDelegate {
-    
+                                                                //서치바 테이블뷰 사용을 위한 델리게이트 데이터소스를 추가해준다
     
 
     let searchCell = "searchCell"
@@ -28,11 +28,18 @@ class SearchBarViewController: UIViewController,UITableViewDelegate,UITableViewD
         searchTable.delegate = self
         searchTable.dataSource = self
         searchBar.delegate = self
-        searchTable.keyboardDismissMode = .onDrag
+        searchTable.keyboardDismissMode = .onDrag //테이블 뷰를 드래그하면 키보드가 사라지도록 설정
+        searchBar.placeholder = "내용을 입력해주세요" //서치바의 기본텍스트 설정
         
-        self.navigationItem.largeTitleDisplayMode = .never
+        
+        
+        self.navigationItem.largeTitleDisplayMode = .never //검색화면은 라지타이틀을 사용하지 않음
 
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        searchTable.reloadData()
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -56,16 +63,18 @@ class SearchBarViewController: UIViewController,UITableViewDelegate,UITableViewD
         self.navigationController?.pushViewController(detailVc, animated: true)
     }
     
-    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        searchDataBase = realm.objects(tableData.self).filter("name contains[c] %@", searchText)
-        searchTable.reloadData()
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) { //서치바에 텍스트를 입력하면 실행
+        self.searchBar.showsCancelButton = true //취소버튼 활성화
+        searchDataBase = realm.objects(tableData.self).filter("name contains[c] %@", searchText) //테이블뷰에 내용이 나오도록 필터조정
+        searchTable.reloadData() //테이블뷰 리로드 해줌
     }
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-        searchBar.endEditing(true)
+        searchBar.endEditing(true) //검색버튼을 누르면 키보드 사라짐
     }
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
-        searchBar.endEditing(true)
+        searchBar.endEditing(true) //취소버튼을 누르면 키보드 사라짐
     }
+    
     
 
     /*
